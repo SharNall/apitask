@@ -1,0 +1,16 @@
+.posts{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.post{
+    width: calc(100%/3);
+}
+.post h2{
+    text-align: center;
+}
+img{
+    width: 100%; 
+    aspect-ratio: 16 / 9; 
+    object-fit: contain; 
+}
